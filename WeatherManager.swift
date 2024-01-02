@@ -15,7 +15,7 @@ protocol weatherManagerDeligate {
 }
 
 struct WeatherManager {
-    let baseURL = "https://api.openweathermap.org/data/2.5/weather?appid=d3015f6ebfd13711e3f08777e187e2ba&units=metric"
+    let baseURL = "https://api.openweathermap.org/data/2.5/weather?appid=  " //add api id here after =
     
     
     func addCityname(city: String){
